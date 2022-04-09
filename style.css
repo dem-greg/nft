@@ -1,0 +1,736 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	 font-family: 'Schoolbell', cursive;	
+}
+body{
+background-color: #000;
+height: 3000px;
+}
+header{
+padding-top:50px;
+display: flex;	
+justify-content: space-between;
+margin: 0 5%;
+}
+.header-wrapper_social-el{
+    text-decoration: none;
+    margin: 0 5px;
+}
+.header-wrapper_social-el svg{
+	height: auto;
+    width: 20px;
+}
+nav ul {
+list-style: none;
+display: flex;
+}
+nav ul li{
+	margin: 0 5px;
+	color: #11f200;
+}
+.logo{
+	position: relative;
+ margin-bottom: 20px;
+    width: 100%;
+}
+.hero-part1 img,.hero-part2 img {
+   height: auto;
+    width: 100%;
+}
+.hero-part1{
+	position: relative;
+	display: block;
+	bottom: 30px;
+}
+.hero-part2{
+position: absolute;
+top:unset;
+bottom: 23%;
+left: 35%;
+width: 27%;
+
+}
+.hero_pinkarrow{
+	position: absolute;
+	bottom:25%;
+    left: 14%;
+    max-width: 318px;
+    width: 17%;
+    animation: identifier 3s ease-in-out infinite;
+}
+.hero_greenarrow{
+	position: absolute;
+	top:5%;
+	left: 37%;
+	width: 7%;
+	max-width: 142px;
+	animation: identifier 3s ease-in-out infinite;
+}
+.hero_greenarrow_two{
+	position: absolute;
+	top:5%;
+	left: 60%;
+	width: 3.4%;
+	max-width: 65px;
+	animation: identifier 3s ease-in-out infinite;
+}
+.hero_pinkarrow_two{
+position: absolute;
+	top:18%;
+	left: 65%;
+	width:13%;
+	max-width: 247px;
+	animation: identifier 3s ease-in-out infinite;
+}
+.team_decor_heart{
+	position: absolute;
+	top:18%;
+	left: 30%;
+	width:3%;
+	max-width: 55px;
+	animation: identifier 3s ease-in-out infinite;
+}
+.hero_cross_two{
+position: absolute;
+	top:18%;
+	left: 50%;
+	width:1%;
+	max-width: 19px;
+	
+	animation: identifier 3s ease-in-out infinite;	
+}
+.team_decor_smiley{
+	position: absolute;
+	top:10%;
+	left: 55%;
+	width:2%;
+	max-width: 40px;
+	animation: identifier 3s ease-in-out infinite;
+}
+.team_decor_scratches_pink{
+	position: absolute;
+	top:10%;	
+	left: 78%;
+	width:4%;
+	max-width: 66px;
+	animation: identifier 3s ease-in-out infinite;
+}
+.hero_triangle{
+	position: absolute;
+	top:40%;
+	left: 71%;
+	width:2%;
+	max-width: 35px;
+	animation: identifier 3s ease-in-out infinite;
+}
+.hero_snake{
+	position: absolute;
+	top:48%;
+	left: 80%;
+	width:8%;
+	max-width: 161px;
+	animation: identifier 3s ease-in-out infinite;
+}
+.hero_strange{
+	position: absolute;
+	top:63%;
+	left: 75%;
+	width:3%;
+	max-width: 59px;
+	animation: identifier 3s ease-in-out infinite;
+}
+.hero_strange_two{
+	position: absolute;
+	top:83%;
+	left: 14%;
+	width:3%;
+	max-width: 45px;
+	animation: identifier 3s ease-in-out infinite;
+}
+.team_decor_seven{
+	position: absolute;
+	bottom:40%;
+    left: 25%;
+    max-width: 64px;
+    width: 3%;
+    animation: identifier 3s ease-in-out infinite;
+}
+
+.team_decor_circles{
+	position: absolute;
+	bottom:15%;
+    left: 30%;
+    max-width: 35px;
+    width: 2%;
+    animation: identifier 3s ease-in-out infinite;
+}
+.hero_cross{
+	position: absolute;
+	bottom:20%;
+    left: 70%;
+    max-width: 35px;
+    width: 1.5%;
+    animation: identifier 3s ease-in-out infinite;
+}
+.team_decor_scratches_white{
+	position: absolute;
+	bottom:37%;
+    left: 7%;
+    max-width: 86px;
+    width: 4.5%;
+    animation: identifier 3s ease-in-out infinite;
+}
+
+
+
+
+
+
+
+
+
+
+.logo_section_btn{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 100px;
+}
+
+.logo_section_btn img:nth-child(1){
+width: 22%;
+}
+.logo_btn_hover{
+	width: 22%;
+	position: absolute;
+	top:-50%;
+display: none;
+}
+.logo_section_btn:hover .logo_btn_hover{
+display: block;
+}
+.meet_head p{
+	color: #11f200;
+	font-size: 33px;
+    line-height: 130.69%;
+    text-align: center;
+    font-family: 'Schoolbell', cursive;
+}
+.meet_head p span:nth-child(2){
+	color:white;
+}
+.meet_head p span:nth-child(3){
+color: #f0f;
+}
+
+
+
+@keyframes identifier {
+  0% { transform: rotate(-4deg); }
+  50% {  transform:rotate(4deg); } 
+   100% {  transform:rotate(-4deg); } 
+}
+.meet_section{
+	position: relative;
+}
+.decor1{
+	position: absolute;
+	right:0;
+	top:80px;
+}
+.decor2{
+	position: absolute;
+    top: 60%;
+}
+.change_photo{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin: 150px;
+}
+.meet_arrow{
+	    height: 36px;
+    width: 186px;
+}
+.meet_photo{
+	position: relative;
+
+}
+.meet_decor_one{
+	position: absolute;
+	 top: -40px;
+    left: -40px;
+
+}
+.meet_decor_two{
+	position: absolute;
+	    bottom: -30px;
+    right: -50px;
+}
+
+.meet_smile{
+		position: relative;	
+
+}
+.meet_smile_circuit{
+	position: absolute;
+    top: -32%;
+    left: -15%;
+}
+.meet_smile_face{
+	max-height: 300px;
+    max-width: 288px;
+}
+.our_plans_title h1{
+	color: #11f200;
+	 font-family: 'Schoolbell', cursive;
+	 text-transform: uppercase;
+	 font-size: 90pt;
+	 text-align: center;
+	 font-weight: lighter;
+	 letter-spacing: 10pt;
+
+}
+.our_plans_title{
+	position: relative;
+	height:340px;
+}
+.plans_title_arrows_first{
+	position: absolute;
+	left: 36%;
+	transform: rotate(0deg);
+}
+.plans_title_arrows_second{
+	position: absolute;
+	left: 47%;
+
+	transform: rotate(25deg);
+}
+.plans_title_arrows_three{
+	position: absolute;
+    left: 57%;
+    transform: rotate(60deg);
+}
+.our_plans_body{
+	margin: 0 10%;
+}
+
+.our_plans_done_post{
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 450px;
+	height: 300px;
+
+}
+.done_post{
+		background-image: url(./image/our_plans/plans-highlight.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 500px;
+	height: 300px;
+}
+.backgoung_plans{
+background-image: url(./image/our_plans/plans-decor-boom.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 500px;
+	height: 300px;
+}
+.backgoung_plans_underline{
+background-image: url(./image/our_plans/plans-decor-underline.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 500px;
+	height: 300px;
+}
+.number_post{
+	    font-size: 80px;
+	    margin-right: 20px;
+}
+.descr{
+	font-size: 25px;
+    line-height: 130.69%;
+    width: 23vw;
+}
+.green{
+color: #11f200;
+}
+.pink{
+	color: #f0f;
+}
+.yellow{
+color: #fec927;
+}
+
+
+
+.plans_posts_block div:nth-child(2n){
+	align-self: flex-end;
+}
+.even_post{
+	
+}
+.descr_block p:nth-child(1){
+margin-bottom: 50px;
+}
+.plans_posts_block{
+	display: flex;
+   flex-direction: column;
+}
+.our_plans{
+position: relative;
+}
+.plans_next_one{
+	transform: rotate(240deg);
+	position: absolute;
+	width: 150px;
+	top: 23%;
+    left: 45%;
+}
+.plans_next_two{
+	position: absolute;
+	    top: 38%;
+    right: 25%;
+}
+.plans_next_three{
+	position: absolute;
+	     top: 50%;
+    left: 30%;
+}
+.plans_next_four{
+	position: absolute;
+	    top: 64%;
+    right: 30%;
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 100px;
+}
+.plans_next_five{
+	position: absolute;
+	    top: 75%;
+    left: 30%;
+    width: 300px;
+}
+.plans_next_six{
+	position: absolute;
+	top: 85%;
+    right: 30%;
+    transform: scaleX(-1);
+}
+.plans_decor_wiggle{
+	position: absolute;
+	top: 25%;
+}
+.plans_decor_drawing_one{
+	position: absolute;
+	top: 25%;
+    left: 30%;
+}
+.plans_decor_rocket{
+	position: absolute;
+	top: 38%;
+    left: 39%;
+}
+.plans_decor_drawing_two{
+	position: absolute;
+	top: 38%;
+    right:10%;
+}
+.plans_decor_drawing_three{
+	position: absolute;
+	    top: 62%;
+    right: 4%;
+}
+
+.plans_decor_photo_block{
+	position: absolute;
+	 top: 10%;
+    right: 4%;
+}
+.plans_decor_item{
+position: relative;	
+}
+.plans_decor_subitem{
+	position: absolute;
+	top: 44%;
+    right: -1%;
+transform: rotate(20deg);
+}
+.plans_decor_photo_block_two{
+position: absolute;
+	 top: 51%;
+    left: 0;
+}
+.plans_decor_subitem_two{
+	position: absolute;
+	        top: -19%;
+    left: -10%;
+}
+.plans_decor_photo_block_three{
+	position: absolute;
+    bottom: -3%;
+    right: 2%;
+}
+.plans_decor_subitem_three{
+	position: absolute;
+	top: 4%;
+    right: 18%
+}
+.white_list{
+	margin-top: 50px;
+	height: 50vw;
+		background-image: url(./image/white_list/note-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.white_list_block{
+	margin: 0 11vw;
+}
+.white_list_block h1{
+	color: #000;
+    font-size: 32px;
+    line-height: 130.69%;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.team_container{
+	margin: 0 10vw;
+	color: white;
+	
+}
+.team_title{
+	text-align: center;
+	 font-size: 90pt;
+    line-height: 130.69%;
+     font-weight: lighter;
+     color: #11f200;
+}
+.team_post_block{
+	display: flex;
+	flex-direction:column;
+
+}
+.team_post_item{
+	display: flex;
+	align-items: center;
+
+}
+.team_post_item_text{
+	margin:50px;
+}
+.team_post_item_text h1{
+	color: #f0f;
+    font-size: 44px;
+    line-height: 66px;
+    margin-bottom: 23px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.team_post_item_text p{
+	color: #11f200;
+    font-size: 25px;
+    line-height: 33px;
+    text-transform: uppercase;
+    margin-top: 20px
+}
+.team_post_item:nth-child(2n){
+	text-align: right;
+	justify-content: flex-end;
+}
+.team_post_item_photo{
+	transition-duration: 1s;
+		background-repeat: no-repeat;
+		background-position: center;
+}
+.eduardov{
+	background-image: url(./image/team/team-face-eduardov.png);
+
+}
+.tarnas{
+	background-image: url(./image/team/team-face-tarnas.png);
+}
+.misha{
+	background-image: url(./image/team/team-face-misha.png);
+}
+.jaro{
+	background-image: url(./image/team/team-face-jaro.png);
+}
+.iskander{
+	background-image: url(./image/team/team-face-iskander.png);
+}
+.team_post_item_photo:hover{
+	transform: rotate(180deg);
+
+}
+.team{
+	position: relative;
+}
+.team_design_smiley{
+	position: absolute;
+	left: 20%;
+}
+.team_design_pink{
+	position: absolute;
+	top: 17%;
+	right: 0;
+}
+.team_design_eth{
+	position: absolute;
+	    top: 26%;
+    left: 5%;
+}
+.team_design_scratches{
+	position: absolute;
+	    top: 48%;
+    right: 34%;
+}
+.team_design_circles{
+	position: absolute;
+	   top: 62%;
+    left: 10%;
+}
+.team_design_heart{
+	position: absolute;
+	      top: 67%;
+    left: 36%;
+}
+.team_design_scratches_one{
+	position: absolute;
+	      top: 95%;
+    left: 28%;
+}
+.team_design_scratches_two{
+	position: absolute;
+	      top: 65%;
+    left: 72%;
+}
+.team_design_seven{
+	position: absolute;
+	          top: 93%;
+    left: 72%;
+}
+
+
+
+
+.faq_title{
+padding-top: 50px;
+background-image: url(./image/faq/faq-title-overlay.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: contain;
+}
+.faq_title h1{
+	color: white;
+	font-size: 190pt;
+	font-weight: lighter;
+	text-align: center;
+	
+}
+.faq_paper{
+	margin: auto;
+	max-width: 1100px;
+	height: 1200px;
+	background-image: url(./image/faq/faq-bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+.faq_paper_item p:nth-child(1){
+	    -webkit-text-fill-color: #1b5c04;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #1b5c04;
+    color: #1b5c04;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43px;
+    margin-bottom: 23px;
+}
+.faq_paper_block{
+	padding-top: 241px;
+    padding-left: 170px;
+    width: 640px;
+}
+.faq_paper_item{
+	    margin-bottom: 16px;
+}
+.faq_paper_item p:nth-child(2){
+	    color: #000;
+    font-size: 30px;
+    line-height: 29px;
+}
+.faq{
+	position: relative;
+}
+.faq_arrow_one{
+	position: absolute;
+	top:18%;
+	right: 0%;
+}
+.faq_arrow_two{
+	position: absolute;
+	    top: 73%;
+    left: 0%;
+}
+.faq_question_one{
+	position: absolute;
+	top: 31%;
+    left: 26%;
+    transform: rotate(50deg);
+    width: 100px;
+}
+.faq_how{
+	position: absolute;
+	top: 31%;
+    left: 53%;
+}
+.faq_question_two{
+	position: absolute;
+	top: 35%;
+    right: 20%;
+}
+.faq_when{
+	position: absolute;
+	top: 44%;
+    right: 31%;
+}
+.faq_where{
+	position: absolute;
+    top: 83%;
+    right: 38%;
+}
+.faq_why{
+	position: absolute;
+    top: 61%;
+    right: 31%;
+}
+footer{
+	height: 400px;
+	background-color: #11f200;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+.footer_nav{
+	display: flex;
+	margin-top: 80px;
+	justify-content: center;
+}
+.footer_nav a{
+	text-decoration: none;
+	font-family: GilroyExtraBold,sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    margin: 0 10px;
+    font-weight: bold;
+}
