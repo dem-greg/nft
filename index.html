@@ -7,9 +7,10 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&family=Schoolbell&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-<header>
+<header id="mint">
 	<div class="social_media">
 		<div class="header-wrapper_social">
 			<a href="https://discord.gg/JSZnasaa7p" target="_blank" rel="noopener noreferrer" class="header-wrapper_social-el">
@@ -38,14 +39,14 @@
 	</div>
 	<nav>
 		<ul>
-			<li>MINT</li>
-			<li>OUR PLANS</li>
-			<li>TEAM</li>
-			<li>FAQ</li>
+			<li><a href="#mint">MINT</a></li>
+			<li><a href="#our_plans">OUR PLANS</a></li>
+			<li><a href="#team">TEAM</a></li>
+			<li><a href="#faq">FAQ</a></li>
 		</ul>
 	</nav>
 </header>
-<section class="logo_section">
+<section class="logo_section" >
 	<div class="logo">
 	<picture class="hero-part1" style="top: 49.9562%;">
 	<source srcset=./image/header/hero-part1.webp media="(max-width: 727px)">
@@ -91,9 +92,9 @@
 		<div class="meet_body">
 			<div class="change_photo">
 				<div class="meet_photo">
-				<img class="meet_decor_one" src="./image/meet/meet-nft-tape2.png">
-				<img class="meet_decor_two" src="./image/meet/meet-nft-tape1.png">
-				<img src="./image/meet/meet-nft-7.webp">
+				<img data-aos="zoom-out" class="meet_decor_one" src="./image/meet/meet-nft-tape2.png">
+				<img  data-aos="zoom-out"class="meet_decor_two" src="./image/meet/meet-nft-tape1.png">
+				<img class="change_photo_item" src="./image/meet/meet-nft-7.webp">
 				</div>
 				<img class="meet_arrow" src="./image/meet/meet-arrow.png">
 					<div class="meet_smile">
@@ -109,36 +110,37 @@
 		
 	</div>
 </section>
-<section class="our_plans">
+<section class="our_plans" id="our_plans">
 	<div class="our_plans_design">
-		<img  class="plans_next_one" src="./image/our_plans/plans-nextarrow1.svg">
-		<img  class="plans_next_two" src="./image/our_plans/plans-nextarrow1.svg">
-		<img  class="plans_next_three" src="./image/our_plans/plans-nextarrow2.svg">
-		<img  class="plans_next_four" src="./image/our_plans/plans-nextarrow2.svg">
-<img  class="plans_next_five" src="./image/our_plans/plans-nextarrow4.svg"/>
-<img  class="plans_next_six" src="./image/our_plans/plans-nextarrow2.svg">
-<img  class="plans_decor_wiggle" src="./image/our_plans/plans-decor-wiggle.png">
-<img  class="plans_decor_drawing_one" src="./image/our_plans/plans-decor-drawing1.png">
-<img  class="plans_decor_rocket" src="./image/our_plans/plans-decor-rocket.svg">
-<img  class="plans_decor_drawing_two" src="./image/our_plans/plans-decor-drawing2.png">
-<img  class="plans_decor_drawing_three" src="./image/our_plans/plans-decor-drawing3.png">
-<div class="plans_decor_photo_block">
-	<div class="plans_decor_item">
+		<div data-aos="fade-down-right" class="plans_next_one"><img   src="./image/our_plans/plans-nextarrow1.svg"></div>
+		<img   data-aos="fade-down-left" class="plans_next_two" src="./image/our_plans/plans-nextarrow1.svg">
+		<img   data-aos="fade-down-right" class="plans_next_three" src="./image/our_plans/plans-nextarrow2.svg">
+		<div  data-aos="fade-down-left" class="plans_next_four"><img   src="./image/our_plans/plans-nextarrow2.svg"></div>
+<img  data-aos="fade-down-right" class="plans_next_five" src="./image/our_plans/plans-nextarrow4.svg"/>
+<div data-aos="fade-down-left" class="plans_next_six"><img  src="./image/our_plans/plans-nextarrow2.svg"></div>
+<img data-aos="zoom-in"  class="plans_decor_wiggle" src="./image/our_plans/plans-decor-wiggle.png">
+<img data-aos="zoom-in"  class="plans_decor_drawing_one" src="./image/our_plans/plans-decor-drawing1.png">
+<img data-aos="zoom-in"  class="plans_decor_rocket" src="./image/our_plans/plans-decor-rocket.svg">
+<img data-aos="zoom-in"  class="plans_decor_drawing_two" src="./image/our_plans/plans-decor-drawing2.png">
+<img data-aos="zoom-in"  class="plans_decor_drawing_three" src="./image/our_plans/plans-decor-drawing3.png">
+<div id="scene_one"  data-aos="flip-left" class="plans_decor_photo_block">
+	<div data-depth="0.6" class="plans_decor_item layer">
 	<img class="plans_decor_subitem_main" src="./image/our_plans/plans-decor-face1.png">
 	<img class="plans_decor_subitem" src="./image/our_plans/plans-decor-face2-tape2.png">
 	</div>
 </div>
-<div class="plans_decor_photo_block_two">
-	<div class="plans_decor_item">
+<div id="scene_two" data-aos="flip-right" data-aos-delay="300" class="plans_decor_photo_block_two">
+	<div data-depth="0.6" class="plans_decor_item layer">
 	<img class="plans_decor_subitem_main" src="./image/our_plans/plans-decor-face2.png">
 	<img class="plans_decor_subitem_two" src="./image/our_plans/plans-decor-face2-tape2.png">
 	</div>
 </div>
-<div class="plans_decor_photo_block_three">
-	<div class="plans_decor_item">
+<div id="scene_three" data-aos="flip-left" data-aos-delay="300" class="plans_decor_photo_block_three">
+	<div data-depth="0.6" class="plans_decor_item">
 	<img class="plans_decor_subitem_main" src="./image/our_plans/plans-decor-face3.png">
 	<img class="plans_decor_subitem_three" src="./image/our_plans/plans-decor-face3-tape.png">
 	</div>
+</div>
 </div>
 	</div>
 	<div class="our_plans_body">
@@ -151,19 +153,19 @@
 
 		</div>
 		<div class="plans_posts_block">
-		<div class="our_plans_done_post done_post">
+		<div data-aos="flip-right" class="our_plans_done_post done_post">
 			<div class="number_post">1.</div>
 			<p class="descr"><span class="green">The Bruhz vol 1.0</span> - Develop the brand, receive the first feedback from the audience and get sold out in a 24h auction with the floor price is <span class="pink">5 ETH</span> after.</p>
 		</div>
-			<div class="our_plans_done_post even_post done_post">
+			<div data-aos="flip-left" class="our_plans_done_post even_post done_post">
 			<div class="number_post">2.</div>
 			<p class="descr"><span class="pink">The Bruhz vol 2.0</span> - Involve famous artis ts in the project and grow a community of loyal customers that won't let their Bruhzs go.</p>
 		</div>
-		<div class="our_plans_done_post">
+		<div data-aos="flip-right" class="our_plans_done_post">
 			<div class="number_post">3.</div>
 			<p class="descr"><span class="yellow">The Bruhz Generation 7777</span> - Initiate The Bruhz Universe, create a full-fledged design, marketing and development team. Reward each ‘vol1’ and ‘vol2’ holder by the “<span class="green">The Bruhz List</span>” early access. Get sold out by the power of community without dirty marketing. IN PROGRESS</p>
 		</div>
-		<div class="our_plans_done_post">
+		<div data-aos="flip-left" class="our_plans_done_post">
 			<div class="number_post">4.</div>
 			<div class="descr_block">
 			<p class="descr">Carry out a post-sale marketing campaign to expand the audience and increase the collection's liquidity.</p>
@@ -172,51 +174,49 @@
 			</p>
 		</div>
 		</div>
-		<div class="our_plans_done_post backgoung_plans">
+		<div data-aos="flip-right" class="our_plans_done_post backgoung_plans">
 			<div class="number_post">5.</div>
 			<p class="descr">
 				Launch limited <span class="green">merchandise </span>(balls with face images and clothes) for the Bruhz owners only.
 			</p>
 		</div>
-		<div class="our_plans_done_post backgoung_plans_underline">
+		<div data-aos="flip-left" class="our_plans_done_post backgoung_plans_underline">
 			<div class="number_post">6.</div>
 			<p class="descr">
 				<span class="green">The Bruhz vol 3</span> - Collaborate with the biggest names in the NFT space. Carry out giveaways for the most loyal holders of previous collections.
 			</p>
 		</div>
-		<div class="plans_posts_block">
-		<div class="our_plans_done_post done_post">
+		<div data-aos="flip-right" class="our_plans_done_post done_post">
 			<div class="number_post">7.</div>
 			<p class="descr">Release TheBruhz AI 3.0. The robot protects you from robbers, mad mom and shilling artists.
 			</p>
 		</div>
 	</div>
-	</div>
 </section>
 
 <section class="white_list">
 	<div class="white_list_block">
-<h1>WE WON'T PROMISE ANOTHER METAVERSE OR A GAME, BUT WE'RE HEADING TOWARDS IT. UNLIKE MOST PROJECTS, EACH OF OUR TEAM MEMBERS HAD PREVIOUSLY CREATED THEIR OWN NFTS OR SUCCESSFULLY EXECUTED PROJECTS RELATED TO IT. WE'VE BEEN HERE YESTERDAY AND YOU'LL SEE US HERE TOMORROW.</h1>
+<h1 data-aos="zoom-in">WE WON'T PROMISE ANOTHER METAVERSE OR A GAME, BUT WE'RE HEADING TOWARDS IT. UNLIKE MOST PROJECTS, EACH OF OUR TEAM MEMBERS HAD PREVIOUSLY CREATED THEIR OWN NFTS OR SUCCESSFULLY EXECUTED PROJECTS RELATED TO IT. WE'VE BEEN HERE YESTERDAY AND YOU'LL SEE US HERE TOMORROW.</h1>
 	</div>
 </section>
-<section class="team">
+<section class="team" id="team">
 	<div class="team_design">
-		<img  class="team_design_smiley" src="./image/team/team-decor-smiley.png">
-<img  class="team_design_pink" src="./image/team/team-decor-scratches-pink.png">
-<img  class="team_design_eth" src="./image/team/team-decor-eth.png">
+		<img data-aos="zoom-in"  class="team_design_smiley" src="./image/team/team-decor-smiley.png">
+<img data-aos="zoom-in"  class="team_design_pink" src="./image/team/team-decor-scratches-pink.png">
+<img data-aos="zoom-in"  class="team_design_eth" src="./image/team/team-decor-eth.png">
 
-<img  class="team_design_scratches" src="./image/team/team-decor-scratches-white.png">
-<img  class="team_design_circles" src="./image/team/team-decor-circles.png">
+<img data-aos="zoom-in"  class="team_design_scratches" src="./image/team/team-decor-scratches-white.png">
+<img data-aos="zoom-in"  class="team_design_circles" src="./image/team/team-decor-circles.png">
 
-<img  class="team_design_heart" src="./image/team/team-decor-heart.png">
-<img  class="team_design_scratches_one" src="./image/team/team-decor-scratches-white.png">
-<img  class="team_design_scratches_two" src="./image/team/team-decor-scratches-white.png">
-<img  class="team_design_seven" src="./image/team/team-decor-7777.png">
+<img data-aos="zoom-in"   class="team_design_heart" src="./image/team/team-decor-heart.png">
+<img data-aos="zoom-in"  class="team_design_scratches_one" src="./image/team/team-decor-scratches-white.png">
+<img data-aos="zoom-in"  class="team_design_scratches_two" src="./image/team/team-decor-scratches-white.png">
+<img data-aos="zoom-in"  class="team_design_seven" src="./image/team/team-decor-7777.png">
 	</div>
 	<div class="team_container">
 		<h1 class="team_title">BRUNZ TEAM</h1>
 		<div class="team_post_block">
-<div class="team_post_item">
+<div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="team_post_item">
 	<div class="team_post_item_photo eduardov">
 	<img src="./image/team/team-face-outline.svg"/>
 
@@ -227,7 +227,7 @@
 		<p>WORKED <span class="pink">WITH WILL SMITH, MARSHMELLO, MSI, KFC, ETC.</span></p>
 	</div>
 </div>
-<div class="team_post_item">
+<div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="team_post_item" >
 	<div class="team_post_item_text">
 		<h1>tarnas</h1>
 		<p>PROJECT DRIVER. FOUNDER OF DVIZH DESIGN STUDIO, MADE 85ETH+ WORTH UNIQUE ARTWORKS AND 4 GENERATIVE COLLECTIONS FOR THE CLIENTS, MENTIONED IN THE OFFICIAL <span class="pink">FORBES.</span></p>
@@ -238,7 +238,7 @@
 	</div>
 </div>
 
-<div class="team_post_item">
+<div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="team_post_item">
 	<div class="team_post_item_photo misha">
 	<img src="./image/team/team-face-outline.svg"
 		/>
@@ -249,17 +249,17 @@
 	</div>
 </div>
 
-<div class="team_post_item">
+<div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="team_post_item">
 	<div class="team_post_item_text">
 		<h1>Jaro.schur</h1>
 		<p>TALKS TO FOLKS.</p>
 	</div>
-	<div class="team_post_item_photo jaro">
+	<div  class="team_post_item_photo jaro">
 		<img src="./image/team/team-face-outline.svg"
 		/>
 	</div>
 </div>
-<div class="team_post_item">
+<div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="team_post_item">
 	<div class="team_post_item_photo iskander">
 		<img src="./image/team/team-face-outline.svg"
 		/>
@@ -274,10 +274,14 @@
 		</div>
 	</div>
 </section>
-<section class="faq">
+<section class="faq" id="faq">
 	<div class="faq_design">
-<img  class="faq_arrow_one" src="./image/faq/faq-dotted-arrow1.svg">
-<img  class="faq_arrow_two" src="./image/faq/faq-dotted-arrow2.svg">
+<img data-aos="fade-left"
+     data-aos-anchor-placement="top-center"
+     data-aos-easing="ease-in-sine" class="faq_arrow_one" src="./image/faq/faq-dotted-arrow1.svg">
+<img data-aos="fade-right"
+      data-aos-anchor-placement="top-bottom"
+     data-aos-easing="ease-in-sine" class="faq_arrow_two" src="./image/faq/faq-dotted-arrow2.svg">
 <img  class="faq_question_one" src="./image/faq/faq-qa-q.png">
 <img  class="faq_how" src="./image/faq/faq-qa-how.png">
 <img  class="faq_question_two" src="./image/faq/faq-qa-q.png">
@@ -293,23 +297,23 @@
 	</div>
 	<div class="faq_paper">
 		<div class="faq_paper_block">
-		<div class="faq_paper_item">
+		<div data-aos="zoom-in" class="faq_paper_item">
 			<p>How many TheBruhz will there be?</p>
 			<p>7777</p>
 		</div>
-		<div class="faq_paper_item">
+		<div data-aos="zoom-in"  class="faq_paper_item">
 			<p>How much will they cost?</p>
 			<p>Bruh List Sale - 0.077ETH, Public Sale - 0.1ETH</p>
 		</div>
-		<div class="faq_paper_item">
+		<div data-aos="zoom-in"  class="faq_paper_item">
 			<p>Will there be a pre-sale?</p>
 			<p>Yes, BruhList gets an early access.<br/>Check out discord server for more info.</p>
 		</div>
-		<div class="faq_paper_item">
+		<div  data-aos="zoom-in"  class="faq_paper_item">
 			<p>How many can I mint?</p>
 			<p>7 per wallet during bruh list sale, 7 per transaction during public sale.</p>
 		</div>
-		<div class="faq_paper_item">
+		<div data-aos="zoom-in" class="faq_paper_item">
 			<p>Will you make me rich to get a Lambo?</p>
 			<p>Sure, but would you exchange real brother for a car? Hold your Bruh.</p>
 		</div>
@@ -321,12 +325,24 @@
 
 <footer>
 	<div class="footer_nav">
-		<a href="#">MINT</a>
-		<a href="#">OUR PLANS</a>
-		<a href="#">TEAM</a>
-		<a href="#">FAQ</a>
+		<a href="#mint">MINT</a>
+			<a href="#our_plans">OUR PLANS</a>
+			<a href="#team">TEAM</a>
+			<a href="#faq">FAQ</a>
 	</div>
 </footer>
+
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="parallax.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+  AOS.init({
+  	offset:300,
+  	duration:1000
+  });
+</script>
 
 </body>
 </html>

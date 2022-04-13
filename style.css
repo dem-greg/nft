@@ -3,16 +3,24 @@
 	padding: 0;
 	margin: 0;
 	 font-family: 'Schoolbell', cursive;	
+	 scroll-behavior: smooth;
+
+}
+section{
+
 }
 body{
 background-color: #000;
 height: 3000px;
+overflow-x: hidden;
 }
 header{
 padding-top:50px;
 display: flex;	
 justify-content: space-between;
 margin: 0 5%;
+position: relative;
+z-index: 2222;
 }
 .header-wrapper_social-el{
     text-decoration: none;
@@ -26,9 +34,16 @@ nav ul {
 list-style: none;
 display: flex;
 }
-nav ul li{
+nav ul li a{
 	margin: 0 5px;
 	color: #11f200;
+	text-decoration: none;
+	font-family: GilroyExtraBold,sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 .logo{
 	position: relative;
@@ -197,13 +212,16 @@ position: absolute;
 	justify-content: center;
 	position: relative;
 	bottom: 100px;
+    max-width: 500px;
+    width: 20vw;
+    margin: auto;
 }
 
 .logo_section_btn img:nth-child(1){
-width: 22%;
+width: 100%;
 }
 .logo_btn_hover{
-	width: 22%;
+	width: 100%;
 	position: absolute;
 	top:-50%;
 display: none;
@@ -224,7 +242,11 @@ display: block;
 .meet_head p span:nth-child(3){
 color: #f0f;
 }
-
+.meet_body{
+		max-width: 1460px;
+		margin: auto;
+	
+}
 
 
 @keyframes identifier {
@@ -248,7 +270,7 @@ color: #f0f;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin: 150px;
+	margin: 150px 50px;
 }
 .meet_arrow{
 	    height: 36px;
@@ -333,6 +355,9 @@ color: #f0f;
 	width: 500px;
 	height: 300px;
 }
+.done_post .descr{
+	max-width: 360px;
+}	
 .backgoung_plans{
 background-image: url(./image/our_plans/plans-decor-boom.svg);
 	background-repeat: no-repeat;
@@ -383,13 +408,17 @@ margin-bottom: 50px;
 }
 .our_plans{
 position: relative;
+max-width: 1500px;
+margin:auto;
 }
 .plans_next_one{
-	transform: rotate(240deg);
 	position: absolute;
-	width: 150px;
 	top: 23%;
     left: 45%;
+}
+.plans_next_one img{
+	transform: rotate(240deg);
+	width: 150px;
 }
 .plans_next_two{
 	position: absolute;
@@ -405,9 +434,11 @@ position: relative;
 	position: absolute;
 	    top: 64%;
     right: 30%;
-  -webkit-transform: scaleX(-1);
+}
+.plans_next_four img{
+	-webkit-transform: scaleX(-1);
     transform: scaleX(-1);
-    width: 100px;
+     width: 100px;
 }
 .plans_next_five{
 	position: absolute;
@@ -419,6 +450,8 @@ position: relative;
 	position: absolute;
 	top: 85%;
     right: 30%;
+}
+.plans_next_six img{
     transform: scaleX(-1);
 }
 .plans_decor_wiggle{
@@ -501,7 +534,6 @@ position: absolute;
 }
 
 .team_container{
-	margin: 0 10vw;
 	color: white;
 	
 }
@@ -571,6 +603,12 @@ position: absolute;
 }
 .team{
 	position: relative;
+	max-width: 1500px;
+	margin: auto;
+	
+}
+.team_design img{
+	z-index: 50;
 }
 .team_design_smiley{
 	position: absolute;
@@ -578,13 +616,13 @@ position: absolute;
 }
 .team_design_pink{
 	position: absolute;
-	top: 17%;
-	right: 0;
+	top: 23%;
+    right: 0;
 }
 .team_design_eth{
 	position: absolute;
-	    top: 26%;
-    left: 5%;
+	      top: 27%;
+    left: 0;
 }
 .team_design_scratches{
 	position: absolute;
@@ -668,6 +706,8 @@ background-size: contain;
 }
 .faq{
 	position: relative;
+    max-width: 1600px;
+    margin: auto;
 }
 .faq_arrow_one{
 	position: absolute;
@@ -733,4 +773,56 @@ footer{
     color: black;
     margin: 0 10px;
     font-weight: bold;
+}
+
+
+
+
+
+
+@media (min-width: 2100px){
+	.hero_pinkarrow {
+    max-width: 379px;
+}
+
+.plans_decor_photo_block {
+    position: absolute;
+    top: 10%;
+    right: -9%;
+}
+.plans_decor_wiggle {
+    position: absolute;
+    top: 25%;
+    left: -7%;
+}
+.plans_decor_drawing_two {
+    position: absolute;
+    top: 38%;
+    right: 1%;
+}
+.plans_decor_photo_block_two {
+    position: absolute;
+    top: 51%;
+    left: -20%;
+}
+.plans_decor_drawing_three {
+    position: absolute;
+    top: 66%;
+    right: -14%;
+}
+.plans_decor_photo_block_three {
+    position: absolute;
+    bottom: -4%;
+    right: -10%;
+}
+.team_design_eth {
+    position: absolute;
+    top: 27%;
+    left: -12%;
+}
+.team_design_circles {
+    position: absolute;
+    top: 63%;
+    left: -9%;
+}
 }
